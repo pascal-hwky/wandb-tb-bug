@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow:2.2.0
 
-RUN pip install wandb==0.9.3
+RUN pip install wandb==0.10.2  # fixed in this version
 
 ENV WANDB_MODE=dryrun
 

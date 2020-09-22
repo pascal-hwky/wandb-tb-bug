@@ -1,6 +1,8 @@
 # Tensorboard import bug in Weights & Biases client
 
-Repository for reproducing a bug when using the W&B client with TensorBoard syncing. Steps to reproduce:
+ > The bug has been fixed in version 0.10.2.
+
+Repository for reproducing a bug when using an older version of the W&B client with TensorBoard syncing. Steps to reproduce:
 
 ```
 git clone https://github.com/pascal-hwky/wandb-tb-bug.git
